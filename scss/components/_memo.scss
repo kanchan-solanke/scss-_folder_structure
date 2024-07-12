@@ -1,0 +1,26 @@
+.todo-outer-wrapper {
+  background-color: plum;
+  .todo-wrapper {
+    text-align: center;
+    background-color: pink;
+
+    table {
+      background-color: crimson;
+      width: 800px;
+      border: 2px solid red;
+    }
+  }
+
+  button {
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    
+  }
+
+  .todo-button-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
